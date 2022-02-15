@@ -1,0 +1,50 @@
+/* test.css */
+div.content{background-color: #eee;}
+div.content>.form{
+    overflow: hidden;
+}
+div.content>.form>.fairWrap{
+    width: calc(918px * 3);
+}
+div.content>.form>.wrap>.fairList{
+    width: 918px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+div.content>.form>.wrap>.fairList>.jobList{
+    width: 200px; height: 160px;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+    position: relative;
+}
+div.content>.form>.wrap>.fairList>.jobList>.img{
+    height: 50px;
+    border-bottom: 2px solid #eee;
+    position: relative;
+}
+div.content>.form>.wrap>.fairList>.jobList>.img>img{
+    width: 105px; height: 30px;
+    position:absolute;
+    margin: auto;
+    left: 0; right: 0; top: 0; bottom: 0;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+}
+div.content>.form>.wrap>.fairList>.jobList>.ttl{
+    margin-top: 10px;
+    color: #f5700b;
+}
+div.content>.form>.wrap>.fairList>.jobList>li{
+     font-weight: bold;
+}
+div.content>.form>.wrap>.fairList>.jobList>.info{
+    position: absolute;
+    margin: auto;
+    left:10px; right: 10px; bottom: 10px;
+    overflow: hidden;
+}
+div.content>.form>.wrap>.fairList>.jobList>.info>li{font-weight: bold; color: #999;
+float: left;}
+div.content>.form>.wrap>.fairList>.jobList>.info>li:last-child{color: #f5700b; float: right;}
