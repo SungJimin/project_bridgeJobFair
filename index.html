@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="css/bridgeCareer_responsive.css">
     <!-- <link rel="stylesheet" href="css/fa_style.css"> -->
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
     <script src="js/swiper.js"></script>
     <script src="js/index.js"></script>
+    
 </head>
 
 <body>
@@ -24,44 +26,8 @@
     </div>
 
     <!-- header:nav -->
-    <div class="headerWrap">
-        <div class="header-subWrap">
-            <!-- 로그인 전 -->
-            <!-- <div class="d-flex justify_end">
-                <div class="header-subMenu">Login</div>
-                <div class="header-subMenu">Join</div>
-                <select name="Language" class="header-subMenu">
-                    <option value="">Language</option>
-                    <option value="한국어(KR)">한국어(KR)</option>
-                    <option value="日本語(JP)">日本語(JP)</option>
-                </select>
-            </div> -->
-            <!-- 로그인 후 -->
-            <div class="d-flex justify_end">
-                <div class="header-subMenu">Logout</div>
-                <select name="Language" class="header-subMenu">
-                    <option value="">Language</option>
-                    <option value="한국어(KR)">한국어(KR)</option>
-                    <option value="日本語(JP)">日本語(JP)</option>
-                </select>
-            </div>
-        </div>
-        <div class="header-mainWrap fz16">
-            <div class="d-flex justify_between">
-                <div class="header-mainLogo">
-                    <img src="/img/logo_society.png" alt="Soft Engineer Society">
-                </div>
-                <!-- 개인 회원 -->
-                <ul class="header-mainMenuWrap d-flex">
-                    <li class="header-mainMenu">이력서 관리</li>
-                    <li class="header-mainMenu">잡페어 신청</li>
-                    <li class="header-mainMenu">잡페어 선택</li>
-                    <li class="header-mainMenu">나의 채용전형</li>
-                    <li class="header-mainMenu">마이페이지</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    
+    <div w3-include-html="./include/header.html"></div>
 
     <!-- content -->
     <div class="content" id="main">
@@ -658,8 +624,13 @@
                     <li>통신판매업신고번호 : 제 강남-03736호</li>
                 </ul>
                 <ul class="footer_snsWrap d-flex">
-                    <li class="footer_sns"><a href="https://blog.naver.com/scitmaster"><div class="img-icon Nblog_wh"></div></a></li>
-                    <li class="footer_sns"><a href="https://www.youtube.com/channel/UCCsiCEQ8g6PacQLuJEYEWpw?view_as=subscriber"><div class="img-icon youtube_wh"></div></a></li>
+                    <li class="footer_sns"><a href="https://blog.naver.com/scitmaster">
+                            <div class="img-icon Nblog_wh"></div>
+                        </a></li>
+                    <li class="footer_sns"><a
+                            href="https://www.youtube.com/channel/UCCsiCEQ8g6PacQLuJEYEWpw?view_as=subscriber">
+                            <div class="img-icon youtube_wh"></div>
+                        </a></li>
                 </ul>
             </div>
             <div class="footer_copyWrap d-flex justify_between">
@@ -673,6 +644,9 @@
             </div>
         </div>
     </div>
+    <script>
+        w3.includeHTML();
+    </script>
 </body>
 
 </html>
