@@ -30,12 +30,13 @@
         flex-wrap: wrap;
     }
     .userGuideWrap>.userGuide>.guideWrap>.guide,
-    .userGuideWrap>.userGuide>.guideWrap>.guide>.guide-text>.btn{
+    .userGuideWrap>.userGuide>.guideWrap>.guide>.guide-text>.btn,
+    .banner_mainWrapper .banner_mainWrap .mainBanner .mobileBanner{
         display: block;
     }
-    .bannerContainer .banner-mainWrap{
-        padding: 20px 0 80px;
-    }
+    .banner_mainWrapper .banner_mainWrap .mainBanner .webBanner{
+        display: none;
+    }  
     .userGuideWrap>.userGuideBg{
         height: 260px;
     }
