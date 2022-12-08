@@ -1,0 +1,30 @@
+<div class="banner_mainWrapper swiper-container">
+    <div class="banner_mainWrap swiper-wrapper">
+        <div class="mainBanner swiper-slide" style="background-color:#96cfdd;">
+            <a href="#">
+                <img src="/project_bridgeJobFair/img/mainBanner_web01.jpg" class="webBanner">
+                <img src="/project_bridgeJobFair/img/mainBanner_mobile01.jpg" class="mobileBanner">
+            </a>
+        </div>
+    </div>
+    <!-- <div class="swiper-button-next"></div> -->
+    <!-- <div class="swiper-button-prev"></div> -->
+    <div class="swiper-pagination"></div>
+</div>
+<script>
+    var swiper = new Swiper(".banner_mainWrapper", {
+        centeredSlides: true,
+        // autoplay: {
+        //     delay: 7000,
+        //     disableOnInteraction: false,
+        // },
+        // navigation: {
+        //     nextEl: ".swiper-button-next",
+        //     prevEl: ".swiper-button-prev",
+        // },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
