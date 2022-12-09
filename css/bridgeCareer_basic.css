@@ -151,11 +151,7 @@
 
 /* quickMenuWrap */
 .quickMenuWrap{
-    /* position: absolute; */
-    /* margin: auto; */
-    /* left: 0; */
-    /* right: 0; */
-    /* bottom: -50px; */
+    margin-top: 100px;
 }
 .quickMenuWrap .d-flex{
     background-color: #fff;
@@ -177,7 +173,6 @@
 
 /* fairWrapper */
 .fairWrapper {
-    margin-top: 50px;
     padding: 100px 0;
 }
 
